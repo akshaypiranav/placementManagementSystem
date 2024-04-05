@@ -1,0 +1,21 @@
+{% extends "base.htm" %}
+
+{% block title %}
+DRIVE | PMS
+{% endblock title %}
+
+
+{% block content %}
+{% include "navbar/mainNavbar.htm" %}
+
+<h1 class="fw-bold text-center">PLACEMENT DRIVE</h1>
+
+<div class="container row justify-content-around">
+    {% if drive %}
+    {% for i in drive %}
+    1
+    {% endfor %}
+    
+    {% endif %}
+</div>
+{% endblock content %}
